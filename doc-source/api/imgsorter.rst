@@ -1,5 +1,5 @@
-==========
-imgsorter
-==========
+===================
+:mod:`imgsorter`
+===================
 
 .. automodule:: imgsorter

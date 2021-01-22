@@ -21,3 +21,8 @@ classifiers:
  - "Topic :: Multimedia :: Sound/Audio"
  - "Topic :: Multimedia :: Video"
  - "Topic :: Utilities"
+
+extra_sphinx_extensions:
+ - enum_tools.autoenum
+
+sphinx_html_theme: furo
