@@ -1,0 +1,23 @@
+# Configuration for 'repo_helper' (https://github.com/domdfcoding/repo_helper)
+---
+modname: 'imgsorter'
+copyright_years: '2014-2021'
+author: 'Dominic Davis-Foster'
+email: 'dominic@davis-foster.co.uk'
+username: 'domdfcoding'
+version: '0.0.0'
+license: 'MIT'
+short_desc: 'A library for sorting and grouping images and videos.'
+
+enable_conda: false
+
+python_versions:
+ - 3.6
+ - 3.7
+ - 3.8
+ - 3.9
+
+classifiers:
+ - "Topic :: Multimedia :: Sound/Audio"
+ - "Topic :: Multimedia :: Video"
+ - "Topic :: Utilities"

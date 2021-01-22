@@ -1,0 +1,5 @@
+==========
+imgsorter
+==========
+
+.. automodule:: imgsorter
