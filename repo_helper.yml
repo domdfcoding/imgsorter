@@ -26,3 +26,10 @@ extra_sphinx_extensions:
  - enum_tools.autoenum
 
 sphinx_html_theme: furo
+
+platforms:
+ - Linux
+ - Windows
+
+travis_extra_install_pre:
+ - sudo apt install libimage-exiftool-perl

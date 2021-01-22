@@ -17,7 +17,7 @@ imgsorter
 	* - Docs
 	  - |docs| |docs_check|
 	* - Tests
-	  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
+	  - |actions_linux| |actions_windows| |coveralls|
 	* - PyPI
 	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
 	* - Activity
@@ -42,10 +42,6 @@ imgsorter
 .. |actions_windows| actions-shield::
 	:workflow: Windows
 	:alt: Windows Test Status
-
-.. |actions_macos| actions-shield::
-	:workflow: macOS
-	:alt: macOS Test Status
 
 .. |actions_flake8| actions-shield::
 	:workflow: Flake8
