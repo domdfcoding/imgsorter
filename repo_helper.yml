@@ -33,3 +33,6 @@ platforms:
 
 travis_extra_install_pre:
  - sudo apt install libimage-exiftool-perl
+
+imgbot_ignore:
+ - tests/example_photos/*.jpg
