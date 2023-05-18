@@ -24,7 +24,7 @@ imgsorter
 	* - Activity
 	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
 	* - QA
-	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	  - |codefactor| |actions_flake8| |actions_mypy|
 	* - Other
 	  - |license| |language| |requires|
 
@@ -52,8 +52,8 @@ imgsorter
 	:target: https://github.com/domdfcoding/imgsorter/actions?query=workflow%3A%22mypy%22
 	:alt: mypy status
 
-.. |requires| image:: https://requires.io/github/domdfcoding/imgsorter/requirements.svg?branch=master
-	:target: https://requires.io/github/domdfcoding/imgsorter/requirements/?branch=master
+.. |requires| image:: https://dependency-dash.repo-helper.uk/github/domdfcoding/imgsorter/badge.svg
+	:target: https://dependency-dash.repo-helper.uk/github/domdfcoding/imgsorter/
 	:alt: Requirements Status
 
 .. |coveralls| image:: https://img.shields.io/coveralls/github/domdfcoding/imgsorter/master?logo=coveralls
@@ -95,16 +95,12 @@ imgsorter
 	:target: https://github.com/domdfcoding/imgsorter/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2021
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2023
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/imgsorter
 	:target: https://pypi.org/project/imgsorter/
 	:alt: PyPI - Downloads
-
-.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/imgsorter/master.svg
-	:target: https://results.pre-commit.ci/latest/github/domdfcoding/imgsorter/master
-	:alt: pre-commit.ci status
 
 .. end shields
 
