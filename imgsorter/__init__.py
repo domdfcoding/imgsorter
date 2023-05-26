@@ -27,12 +27,10 @@ A library for sorting and grouping images and videos.
 #
 
 # stdlib
-import enum
 import os
-import pathlib
 import shutil
 import sys
-from typing import Any, Callable, Dict, List
+from typing import Any, Callable, Dict, List, Optional
 
 # 3rd party
 from domdf_python_tools.paths import PathPlus
@@ -67,7 +65,7 @@ MODE_COPY = SortMode.MODE_COPY
 def sort_images(
 		destination: PathLike,
 		*source: PathLike,
-		known_cameras: Dict[str, str] = None,
+		known_cameras: Optional[Dict[str, str]] = None,
 		mode: SortMode = MODE_COPY,
 		) -> Dict[str, List[PathPlus]]:
 	r"""
