@@ -137,6 +137,7 @@ Installation
 	:maxdepth: 3
 	:caption: Contributing
 
+	license
 	contributing
 	Source
 
