@@ -39,6 +39,7 @@ known_third_party = [
     "enum_tools",
     "exifread",
     "github",
+    "importlib_metadata",
     "pyexiftool",
     "pytest",
     "pytest_cov",
