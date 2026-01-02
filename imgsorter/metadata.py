@@ -109,7 +109,7 @@ def date_to_directory(date: datetime.date) -> str:
 	return date.strftime("%Y_%m_%d")
 
 
-def parse_camera_id(metadata: Dict[str, Any]):
+def parse_camera_id(metadata: Dict[str, Any]) -> str:
 	"""
 	Determine the camera the photograph was taken with from its EXIF data.
 

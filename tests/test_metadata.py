@@ -13,7 +13,8 @@ example_photos = PathPlus(__file__).parent / "example_photos"
 
 
 @pytest.mark.parametrize(
-		"filename", [pytest.param(example_photos / "IMG_20181228_155131.jpg", id="IMG_20181228_155131")]
+		"filename",
+		[pytest.param(example_photos / "IMG_20181228_155131.jpg", id="IMG_20181228_155131")],
 		)
 def test_get_metadata_for_file(advanced_data_regression: AdvancedDataRegressionFixture, filename: PathPlus):
 	metadata = get_metadata_for_file(filename)
@@ -21,7 +22,8 @@ def test_get_metadata_for_file(advanced_data_regression: AdvancedDataRegressionF
 
 
 @pytest.mark.parametrize(
-		"filename, date", [(example_photos / "IMG_20181228_155131.jpg", datetime.date(2018, 12, 28))]
+		"filename, date",
+		[(example_photos / "IMG_20181228_155131.jpg", datetime.date(2018, 12, 28))],
 		)
 def test_parse_date_from_metadata(filename: PathPlus, date: datetime.date):
 	metadata = get_metadata_for_file(filename)
@@ -35,5 +37,5 @@ def test_parse_camera_id(filename: PathPlus, camera_id: str):
 
 
 @pytest.mark.parametrize("date, expected", [(datetime.date(2018, 12, 28), "2018_12_28")])
-def test_date_to_directory(date: datetime.date, expected):
+def test_date_to_directory(date: datetime.date, expected: str):
 	assert date_to_directory(date) == expected
