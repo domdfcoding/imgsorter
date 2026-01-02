@@ -87,7 +87,7 @@ imgsorter
 .. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/imgsorter
 	:alt: GitHub top language
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/imgsorter/v0.0.0
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/imgsorter/v0.1.0
 	:target: https://github.com/domdfcoding/imgsorter/pulse
 	:alt: GitHub commits since tagged version
 
@@ -95,7 +95,7 @@ imgsorter
 	:target: https://github.com/domdfcoding/imgsorter/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/imgsorter

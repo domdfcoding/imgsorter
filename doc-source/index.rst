@@ -93,14 +93,14 @@ imgsorter
 		:alt: GitHub top language
 
 	.. |commits-since| github-shield::
-		:commits-since: v0.0.0
+		:commits-since: v0.1.0
 		:alt: GitHub commits since tagged version
 
 	.. |commits-latest| github-shield::
 		:last-commit:
 		:alt: GitHub last commit
 
-	.. |maintained| maintained-shield:: 2025
+	.. |maintained| maintained-shield:: 2026
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
