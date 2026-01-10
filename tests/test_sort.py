@@ -17,7 +17,7 @@ def test_sort_images(
 	all_example_photos = example_photos.rglob("*.jpg")
 	sort_images(destination, *all_example_photos)
 	advanced_data_regression.check(
-			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren())
+			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren()),
 			)
 
 
@@ -30,7 +30,7 @@ def test_sort_images_known_cameras(
 	all_example_photos = example_photos.rglob("*.jpg")
 	sort_images(destination, *all_example_photos, known_cameras={"VKY-L09": "Smartphone"})
 	advanced_data_regression.check(
-			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren())
+			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren()),
 			)
 
 
@@ -45,5 +45,5 @@ def test_sort_images_duplicate(
 	sort_images(destination, *all_example_photos)
 
 	advanced_data_regression.check(
-			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren())
+			sorted(p.relative_to(tmp_pathplus).as_posix() for p in destination.iterchildren()),
 			)
