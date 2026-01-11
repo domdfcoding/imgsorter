@@ -99,7 +99,7 @@ imgsorter
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/imgsorter
-	:target: https://pypi.org/project/imgsorter/
+	:target: https://pypistats.org/packages/imgsorter
 	:alt: PyPI - Downloads
 
 .. end shields
